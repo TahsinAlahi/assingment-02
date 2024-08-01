@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+  text-wrap-style: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 2.6rem;
+  background: rgb(230, 83, 60);
+  padding: 15px 35px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border: 1px transparent;
+}
+
+.logo {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.card-glass {
+  position: absolute;
+  z-index: 69;
+  font-weight: 900;
+  padding: 18px 24px;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-glass p {
+  font-weight: normal;
+  color: rgb(185, 185, 185);
+  font-size: 1rem;
+  margin-top: 5px;
+}
