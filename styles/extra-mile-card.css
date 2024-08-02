@@ -1,0 +1,33 @@
+.extra-mile-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15.5%;
+  padding: 32px 30px;
+  background: rgb(34, 34, 34);
+  border-radius: 20px;
+  align-items: stretch;
+  background-color: red;
+  margin-bottom: 100px;
+}
+
+.extra-mile-card .text-side {
+  margin-left: 20px;
+}
+
+.extra-mile-card .text-side p {
+  margin: 14px 0 34px;
+}
+
+.extra-mile-card .img-container {
+  overflow: hidden;
+  object-fit: cover;
+  /* position: relative; */
+  border-radius: 15px;
+}
+
+.extra-mile-card img {
+  width: 100%;
+  object-position: top right;
+  transform: scale(3.5);
+  transform-origin: 69% 29%;
+}
