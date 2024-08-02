@@ -1,0 +1,30 @@
+.habits {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.heading {
+  width: 65%;
+  max-width: 670px;
+  margin: 0 auto 55px;
+}
+
+.heading p {
+  margin-top: 1rem;
+}
+
+.habit-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.habit-card img {
+  width: 85%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.habit-card h6 {
+  margin: 25px 0 6px;
+}
