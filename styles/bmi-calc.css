@@ -1,13 +1,12 @@
 .bmi-container-outer {
-  position: absolute;
-  left: 0;
-  right: 0;
+  margin-bottom: 85px;
+  width: 100%;
 }
 
 .bmi-container-outer .heading {
   width: 46%;
   max-width: 671px;
-  margin: 0 auto 85px;
+  margin-bottom: 85px;
 }
 
 .bmi-container-inner {

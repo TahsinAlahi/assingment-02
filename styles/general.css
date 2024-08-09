@@ -95,4 +95,9 @@ a {
 .heading {
   width: 65%;
   max-width: 670px;
+  margin: 0 auto;
+}
+
+.heading p {
+  margin-top: 1rem;
 }

@@ -20,7 +20,6 @@
 .extra-mile-card .img-container {
   overflow: hidden;
   object-fit: cover;
-  /* position: relative; */
   border-radius: 15px;
 }
 

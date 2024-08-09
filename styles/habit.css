@@ -3,11 +3,7 @@
   text-align: center;
 }
 .habits .heading {
-  margin: 0 auto 55px;
-}
-
-.heading p {
-  margin-top: 1rem;
+  margin-bottom: 55px;
 }
 
 .habit-cards {
