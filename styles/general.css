@@ -91,3 +91,8 @@ a {
   font-size: 1rem;
   margin-top: 5px;
 }
+
+.heading {
+  width: 65%;
+  max-width: 670px;
+}
