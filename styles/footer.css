@@ -1,0 +1,43 @@
+.footer-container {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  width: 72%;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr;
+  gap: 9%;
+  padding: 60px 0;
+  align-content: flex-start;
+}
+
+footer .logo-text .logo {
+  color: rgb(230, 83, 60);
+  font-size: 4.4rem;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer .start-contact h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+footer .start-contact ul li {
+  margin-bottom: 20px;
+}
+
+footer .bottom-text {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  grid-column: 1 / -1;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  padding: 35px 0 30px;
+}
