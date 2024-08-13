@@ -29,3 +29,15 @@
   transform: scale(3.5);
   transform-origin: 69% 29%;
 }
+
+@media (max-width: 572px) {
+  .extra-mile-card {
+    grid-template-columns: 1fr;
+    gap: initial;
+    margin-bottom: 66px;
+  }
+
+  .extra-mile-card .img-container {
+    margin-top: 32px;
+  }
+}

@@ -101,3 +101,19 @@ th {
 .bmi-calculator-container .bmi-calculator .btn {
   padding: 12px 40px;
 }
+
+@media (max-width: 572px) {
+  .bmi-container-outer .heading {
+    width: 87%;
+  }
+
+  .bmi-container-inner .bmi-container {
+    width: 90%;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .bmi-container table {
+    margin-bottom: 44px;
+  }
+}
