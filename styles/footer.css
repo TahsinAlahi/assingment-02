@@ -14,7 +14,7 @@ footer {
   align-content: flex-start;
 }
 
-footer .logo-text .logo {
+footer .logo-text .logo a {
   color: rgb(230, 83, 60);
   font-size: 4.4rem;
   font-weight: 800;
@@ -40,4 +40,16 @@ footer .bottom-text {
   color: white;
   margin-top: 30px;
   padding: 35px 0 30px;
+}
+
+@media (max-width: 572px) {
+  footer {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  footer a {
+    font-size: 1.4rem;
+  }
 }

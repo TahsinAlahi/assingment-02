@@ -46,3 +46,18 @@
   left: 18px;
   z-index: 10;
 }
+
+@media (max-width: 572px) {
+  .team {
+    margin-bottom: 60px;
+  }
+
+  .team .image-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team .image-container .team-img:nth-child(1),
+  .team .image-container .team-img:nth-child(4) {
+    display: none;
+  }
+}

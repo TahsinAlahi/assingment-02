@@ -68,10 +68,11 @@ a {
   border: 1px transparent;
 }
 
-.logo {
+.logo a {
   color: rgb(230, 83, 60);
   font-weight: 800;
   line-height: 120%;
+  display: block;
 }
 
 .card-glass {
@@ -117,6 +118,5 @@ a {
 
   main {
     width: 90%;
-    /* margin: 0 auto; */
   }
 }

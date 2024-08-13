@@ -111,9 +111,10 @@ th {
     width: 90%;
     flex-direction: column;
     justify-content: left;
+    gap: 44px;
   }
 
-  .bmi-container table {
-    margin-bottom: 44px;
+  .bmi-container h5 {
+    font-size: 1.3rem;
   }
 }
