@@ -10,7 +10,7 @@ header {
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0) 100%
   );
-  margin-bottom: 100px;
+
   overflow-y: hidden;
 }
 
@@ -69,7 +69,7 @@ nav .nav-link a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* flex: 1; */
+  flex: 1;
   gap: 50px;
 }
 
@@ -130,8 +130,8 @@ nav .nav-link a {
 
 @media (max-width: 576px) {
   header {
-    margin-bottom: 10px;
     height: auto;
+    overflow: initial;
   }
 
   header > * {

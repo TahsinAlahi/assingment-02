@@ -38,6 +38,7 @@
   }
 
   .extra-mile-card .img-container {
+    /* overflow: hidden; */
     margin-top: 32px;
   }
 }
