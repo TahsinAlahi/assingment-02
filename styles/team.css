@@ -29,6 +29,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   pointer-events: none;
+  border-radius: 18px;
 }
 
 .team .image-container img {
@@ -37,7 +38,6 @@
   object-fit: cover;
   border-radius: 18px;
   background: rgba(0, 0, 0, 0.2);
-  border-radius: 18px;
 }
 
 .team .image-container .member-info {

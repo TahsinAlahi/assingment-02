@@ -97,7 +97,7 @@ nav .nav-link a {
 }
 
 .hero .model {
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   padding-left: 50px;
 }
@@ -108,7 +108,11 @@ nav .nav-link a {
 
 .hero .card-glass.free-video {
   top: 140px;
-  right: 0;
+  right: 0px;
+}
+
+.hero .card-glass.free-video h2 {
+  font-size: 1.8rem;
 }
 
 .hero .card-glass.total-video {
