@@ -81,6 +81,10 @@ nav .nav-link a {
   margin: 25px 0;
 }
 
+.hero .moto-info span {
+  font-family: "Dancing script", cursive;
+}
+
 .hero .moto-info .buttons {
   display: flex;
   align-items: center;
@@ -93,6 +97,7 @@ nav .nav-link a {
 }
 
 .hero .model {
+  height: 100%;
   position: relative;
   padding-left: 50px;
 }

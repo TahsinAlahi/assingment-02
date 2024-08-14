@@ -1,0 +1,68 @@
+.extra-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(34, 34, 34);
+  padding: 30px;
+  border-radius: 1rem;
+  margin-bottom: 90px;
+}
+
+.extra-left {
+  width: 40%;
+}
+
+.extra-part img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.extra-right {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.extra-right h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+}
+
+.extra-part input,
+.extra-part select {
+  padding: 12px 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.extra-part option {
+  color: black;
+}
+
+.extra-part .btn {
+  margin-top: 20px;
+}
+
+@media (max-width: 572px) {
+  .extra-part {
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    margin-bottom: 32px;
+  }
+
+  .extra-left {
+    width: 100%;
+  }
+
+  .extra-right {
+    width: 100%;
+  }
+}
